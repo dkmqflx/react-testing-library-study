@@ -1,11 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import UserList from "./UserList";
+
+import Login from "./Login";
 
 function App() {
   return (
     <div className="App">
-      <UserList users={["Tome", "Jack", "Jane"]}></UserList>
+      <Login></Login>
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
