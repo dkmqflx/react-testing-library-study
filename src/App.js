@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import MyPage from "./MyPage";
+import UserList from "./UserList";
 
 function App() {
   return (
     <div className="App">
-      <MyPage user={{ name: "kim" }} />
+      <UserList users={["Tome", "Jack", "Jane"]}></UserList>
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
