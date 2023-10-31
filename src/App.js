@@ -2,10 +2,12 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import Login from "./Login";
+import TodoList from "./TodoList";
 
 function App() {
   return (
     <div className="App">
+      <TodoList />
       <Login></Login>
 
       <header className="App-header">
